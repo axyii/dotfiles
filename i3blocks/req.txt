@@ -1,0 +1,7 @@
+i3blocks	community/i3blocks	x11-misc/i3blocks
+Noto Color Emoji	extra/noto-fonts-emoji	media-fonts/noto-emoji
+ACPI	community/acpi	sys-power/acpid
+Sysstat	community/sysstat	app-admin/sysstat
+Python 3	extra/python	>=dev-lang/python-3.6
+Python Requests	extra/python-requests	dev-python/requests
+lm_sensors	extra/lm_sensors	sys-apps/lm-sensors
