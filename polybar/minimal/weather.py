@@ -2,10 +2,10 @@ import json
 import os
 import urllib.request
 
-from utils.check_unit import check_unit
-from utils.get_city import get_city
-from utils.iso3 import iso3
-from utils.parser import args
+from check_unit import check_unit
+from get_city import get_city
+from iso3 import iso3
+from parser import args
 
 # Get your API KEY here https://openweathermap.org/api,
 # and set an environment variable for OPENWEATHER_API_KEY with your API KEY.
