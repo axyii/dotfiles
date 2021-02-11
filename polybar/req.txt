@@ -1,0 +1,4 @@
+ttf-material-design-icons from the AUR
+nerd-fonts-iosevka from AUR
+nerd-fonts-JetBrainsMono
+pip3 install colured
