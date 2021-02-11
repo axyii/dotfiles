@@ -177,7 +177,7 @@ bindsym $mod+r mode "resize"
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
-exec_always --no-startup-id $HOME/.config/polybar/minimal/launch.sh
+#exec_always --no-startup-id $HOME/.config/polybar/minimal/launch.sh
 
 # Disable window titlebars entirely
 for_window [class="^.*"] border pixel 2
@@ -239,3 +239,28 @@ mode "$mode_gaps_outer" {
 exec --no-startup-id nitrogen --restore
 #compositor
 exec_always --no-startup-id picom --config ~/.config/picom/picom.conf
+
+#bar
+bar {
+  position top                  # Position should be 'bottom' or 'top'.
+  status_command i3blocks       # Invoke i3blocks.
+
+  # Possible other bar configurations go here...
+  # ...
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
