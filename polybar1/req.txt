@@ -1,0 +1,2 @@
+pacman -S ttf-font-awesome
+yay -S nerd-fonts-ubuntu-mono
