@@ -14,7 +14,7 @@
 
 export HISTCONTROL=ignoreboth:erasedups
 
-PS1='[\u@\h \W]\$ '
+PS1='\[\e[35;40m\][\u@\H]\w\\$ \[\e[0m\]'
 
 if [ -d "$HOME/.bin" ] ;
   then PATH="$HOME/.bin:$PATH"
