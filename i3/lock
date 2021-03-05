@@ -1,0 +1,6 @@
+#!/bin/bash
+rm /tmp/screenshot.jpg
+scrot /tmp/screenshot.jpg
+convert /tmp/screenshot.jpg -blur 0x20 /tmp/screenshotblur.jpg
+convert /tmp/screenshotblur.jpg /home/willywonka/Pictures/wallpapers/banner.jpg -gravity center -composite -matte /tmp/screenlock.jpg
+i3lock -i /tmp/screenlock.jpg
