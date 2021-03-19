@@ -28,3 +28,6 @@ xautolock,
 xidlehook,
 scrot,
 ImageMagick,
+Bluez,
+avahi,
+ffmpeg
