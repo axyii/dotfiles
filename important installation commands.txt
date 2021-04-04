@@ -1,0 +1,22 @@
+timedatectl set-ntp true
+cfdisk /dev/sda
+mount /dev/sda2 /mnt
+mkdir /mnt/boot
+mount /dev/sda1 /mnt/boot
+pacstrap /mnt base base-devel linux linux-firmware vim
+genfstab -U >> /mnt/etc/fstab
+arch-chroot /mnt /bin/bash
+pacman -S grub networkmanager
+grub-install /dev/sda
+grub-mkconfig -o /boot/grub/grub.cfg
+passwd
+ln -sf /usr/share/zoneinfo/Asia/Kolkata /etc/localtime
+vim /etc/locale.gen
+locale.gen
+vim /etc/locale.conf - LANG=en_US-UTF-8
+vim /etc/hostname - Titan
+systemctl enable NetworkManager
+exit
+umount -R /mnt
+Server = https://mirrors.piconets.webwerks.in/archlinux-mirror/$repo/os/$arch
+sudo reflector --verbose --latest 5 --sort rate --save /etc/pacman.d/mirrorlist
