@@ -1,10 +1,11 @@
-#Instructions
+##Instructions
 Install libinput
 > pacman -S libinput
 
 Add the following to /etc/X11/xorg.conf.d/30-touchpad.conf
 
->Section "InputClass"
+
+Section "InputClass"
     Identifier "touchpad"
    	    Driver "libinput"
     MatchIsTouchpad "on"
@@ -12,5 +13,3 @@ Add the following to /etc/X11/xorg.conf.d/30-touchpad.conf
     Option "AccelProfile" "adaptive"
     Option "TappingButtonMap" "lrm"
 EndSection
-
-
