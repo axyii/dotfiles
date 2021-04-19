@@ -31,3 +31,6 @@ ImageMagick,
 Bluez,
 avahi,
 ffmpeg,
+cbatticon gtk-2,
+clight,
+clight-gui
