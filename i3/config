@@ -240,7 +240,8 @@ exec --no-startup-id nitrogen --restore
 #compositor
 exec_always --no-startup-id picom --config ~/.config/picom/picom.conf
 #Power
-exec_always --no-startup-id xfce4-power-manager
+#exec_always --no-startup-id xfce4-power-manager
+exec_always --no-startup-id cbatticon
 #Notification
 exec --no-startup-id dunst -config ~/.config/dunst/dunstrc
 #Browser
@@ -248,7 +249,7 @@ bindsym $mod+b exec "brave"
 #Screenshot
 bindsym $mod+y exec scrot ~/Pictures/ss/%Y-%m-%d-%H-%M-%S.png
 #copypasta
-bindsym $mod+c exec ~/.config/i3/copypaste.sh 
+bindsym $mod+c exec ~/.config/i3/copypaste.sh
 
 #bar
 #bar {
