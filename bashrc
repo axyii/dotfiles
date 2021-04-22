@@ -187,8 +187,6 @@ alias probe="sudo -E hw-probe -all -upload"
 #shutdown or reboot
 alias ssn="sudo shutdown now"
 alias sr="sudo reboot"
-#vim
-alias vim="nvim"
 # # ex = EXtractor for all kinds of archives
 # # usage: ex <file>
 ex ()
