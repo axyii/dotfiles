@@ -1,0 +1,38 @@
+patching file config.def.h
+Hunk #1 succeeded at 4 with fuzz 2 (offset 1 line).
+Hunk #2 succeeded at 121 (offset 4 lines).
+patching file dwm.c
+Hunk #2 succeeded at 160 (offset 1 line).
+Hunk #3 succeeded at 197 (offset 1 line).
+Hunk #4 succeeded at 215 (offset 1 line).
+Hunk #5 succeeded at 237 (offset 2 lines).
+Hunk #6 succeeded at 255 (offset 2 lines).
+Hunk #7 succeeded at 294 (offset 2 lines).
+Hunk #8 succeeded at 477 (offset 2 lines).
+Hunk #9 succeeded at 520 (offset 2 lines).
+Hunk #10 succeeded at 555 (offset 2 lines).
+Hunk #11 succeeded at 658 (offset 2 lines).
+Hunk #12 succeeded at 744 (offset 3 lines).
+Hunk #13 succeeded at 792 (offset 3 lines).
+Hunk #14 succeeded at 829 (offset 3 lines).
+Hunk #15 succeeded at 840 (offset 3 lines).
+Hunk #16 succeeded at 877 (offset 3 lines).
+Hunk #17 succeeded at 966 (offset 3 lines).
+Hunk #18 succeeded at 1010 (offset 3 lines).
+Hunk #19 succeeded at 1124 (offset 3 lines).
+Hunk #20 succeeded at 1212 (offset 3 lines).
+Hunk #21 succeeded at 1342 (offset 3 lines).
+Hunk #22 succeeded at 1402 (offset 3 lines).
+Hunk #23 succeeded at 1423 (offset 3 lines).
+Hunk #24 succeeded at 1503 (offset 3 lines).
+Hunk #25 succeeded at 1605 (offset 3 lines).
+Hunk #26 succeeded at 1648 (offset 3 lines).
+Hunk #27 succeeded at 1747 (offset 13 lines).
+Hunk #28 succeeded at 1758 (offset 13 lines).
+Hunk #29 succeeded at 1769 (offset 13 lines).
+Hunk #30 succeeded at 1905 (offset 14 lines).
+Hunk #31 succeeded at 2011 (offset 14 lines).
+Hunk #32 succeeded at 2033 (offset 14 lines).
+Hunk #33 succeeded at 2217 (offset 14 lines).
+Hunk #34 succeeded at 2402 (offset 14 lines).
+Hunk #35 succeeded at 2465 (offset 14 lines).
