@@ -5,3 +5,4 @@ Comment=Dynamic window manager
 Exec=dwm
 Icon=dwm
 Type=XSession
+#add to /usr/share/xsession/dwm.desktop
