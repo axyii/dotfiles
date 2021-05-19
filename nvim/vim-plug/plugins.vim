@@ -20,5 +20,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'vim-airline/vim-airline-themes'
     Plug 'ryanoasis/vim-devicons'
     Plug 'kaicataldo/material.vim'
+    Plug 'wojciechkepka/bogster'
+    Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
