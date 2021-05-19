@@ -24,3 +24,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
+"coc-html
+"coc-tsserver
+"coc-pyright
+"coc-json
+"coc-go - To work install gopls
+"coc-css
