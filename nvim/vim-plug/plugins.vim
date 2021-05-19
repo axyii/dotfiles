@@ -21,7 +21,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'ryanoasis/vim-devicons'
     Plug 'kaicataldo/material.vim'
     Plug 'wojciechkepka/bogster'
-    Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    Plug 'neoclide/coc.nvim', {'branch': 'release'}"Install npm for this plugin
 
 call plug#end()
 "coc-html
