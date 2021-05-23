@@ -1,5 +1,7 @@
-##Instructions
-Install libinput
+#Instructions
+
+
+For working of touchpad on linux install libinput
 > pacman -S libinput
 
 Add the following to /etc/X11/xorg.conf.d/30-touchpad.conf
