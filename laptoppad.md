@@ -1,4 +1,4 @@
-#Instructions
+# Instructions for working of touchpad on linux laptops
 
 
 For working of touchpad on linux install libinput
