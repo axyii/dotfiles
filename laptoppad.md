@@ -7,7 +7,8 @@ For working of touchpad on linux install libinput
 Add the following to /etc/X11/xorg.conf.d/30-touchpad.conf
 
 
-```Section "InputClass"  
+```
+Section "InputClass"  
     Identifier "touchpad"  
    	    Driver "libinput"  
     MatchIsTouchpad "on"  
