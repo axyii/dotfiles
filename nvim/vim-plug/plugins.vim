@@ -22,6 +22,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'kaicataldo/material.vim'
     Plug 'wojciechkepka/bogster'
     Plug 'neoclide/coc.nvim', {'branch': 'release'}"Install npm for this plugin
+    Plug 'mhinz/vim-startify'
 
 call plug#end()
 "coc-html
