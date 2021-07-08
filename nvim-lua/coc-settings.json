@@ -1,0 +1,26 @@
+{
+  "coc.preferences.formatOnType":true,
+  "coc.preferences.formatOnTypeFiletypes":["python","html", "golang", "javascript", "css"],
+  "diagnostic.errorSign": "✘",
+  "diagnostic.infoSign": "ℹ",
+  "diagnostic.hintSign": "➤",
+  "diagnostic.enableHighlightLineNumber": true,
+  "codeLens.enable": true,
+  "signature.enable": true,
+  "pyright.enable": true,
+  "python.analysis.autoImportCompletions": true,
+  "pyright.completion.snippetSupport": true,
+  "html.enable": true,
+  "languageserver": {
+    "golang": {
+      "command": "gopls",
+      "rootPatterns": ["go.mod", ".vim/", ".git/", ".hg/"],
+      "filetypes": ["go"]
+    }
+  }
+} 
+
+
+
+
+
