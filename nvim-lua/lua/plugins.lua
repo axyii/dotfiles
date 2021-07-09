@@ -26,12 +26,14 @@ return require('packer').startup(function()
   use { 'neovim/nvim-lspconfig' }
   use { 'nvim-lua/completion-nvim' }
   use {'neoclide/coc.nvim'}
+  use {'nvim-treesitter/nvim-treesitter', run = ':TSUpdate'}
   --coc-html
   --coc-tsserver
   --coc-pyright
   --coc-json
   --coc-go - To work install gopls
   --coc-css
+  --coc-markdownlint
 
   -- Vim dispatch
   use { 'tpope/vim-dispatch' }
