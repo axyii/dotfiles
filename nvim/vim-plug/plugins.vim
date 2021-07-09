@@ -31,3 +31,4 @@ call plug#end()
 "coc-json
 "coc-go - To work install gopls
 "coc-css
+"coc-markdownlint
