@@ -15,5 +15,5 @@ vim.g.tokyonight_colors = { hint = "orange", error = "#ff0000" }
 vim.cmd[[colorscheme tokyonight]]
 
 --OneDark
---vim.g.onedark_style = 'deep' --Available Dark,Darker,Cool,Deep,Warm,Warmer
+--vim.g.onedark_style = 'deep' --Available dark,darker,cool,deep,warm,warmer
 --vim.cmd[[colorscheme onedark]]
