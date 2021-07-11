@@ -4,7 +4,7 @@ utils.opt('o', 'termguicolors', true)
 
 
 --Tokyonight
-vim.g.tokyonight_style = "night" --Available Storm,Night,Day
+vim.g.tokyonight_style = "night" --Available storm,night,day
 vim.g.tokyonight_italic_functions = true
 vim.g.tokyonight_sidebars = { "qf", "vista_kind", "terminal", "packer" }
 
