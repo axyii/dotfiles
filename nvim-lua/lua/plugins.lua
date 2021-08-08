@@ -26,7 +26,7 @@ return require('packer').startup(function()
   -- LSP and completion
   use { 'neovim/nvim-lspconfig' }
   use { 'nvim-lua/completion-nvim' }
-  use {'neoclide/coc.nvim'}
+  use {'neoclide/coc.nvim', branch = 'release'}
   use {'nvim-treesitter/nvim-treesitter', run = ':TSUpdate'}
   --coc-html
   --coc-tsserver
