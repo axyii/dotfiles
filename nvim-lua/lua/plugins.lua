@@ -12,7 +12,6 @@ return require('packer').startup(function()
     'hoob3rt/lualine.nvim',
     requires = {'kyazdani42/nvim-web-devicons', opt = true}
   }
-  use {'kdheepak/tabline.nvim'}
   use {'norcalli/nvim-colorizer.lua'}
   use {'navarasu/onedark.nvim'}
   -- Fuzzy finder
