@@ -1,0 +1,5 @@
+require('config.colorscheme')
+require('config.completion')
+require('config.colorizer')
+require('config.statusline')
+--require('config.treesitter')
