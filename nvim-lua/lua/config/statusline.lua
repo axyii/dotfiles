@@ -1,11 +1,11 @@
 local colors = {
-  red = '#ff5189',
+  red = '#ca1243',
   grey = '#303030',
   black = '#303030',
   white = '#80a0ff',
-  light_green = '#79dac8',
-  orange = '#d183e8',
-  green = '#8ec07c',
+  light_green = '#8bcd5b',
+  orange = '#8a3fa0',
+  green = '#8bcd5b',
 }
 
 local theme = {
