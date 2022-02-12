@@ -10,14 +10,22 @@ return require('packer').startup(function()
   use{'glepnir/dashboard-nvim'}
   use {
     'hoob3rt/lualine.nvim',
-    requires = {'kyazdani42/nvim-web-devicons', opt = true}
+        requires = {'kyazdani42/nvim-web-devicons', opt = true}
   }
+--  use{'windwp/windline.nvim'}
   use {'norcalli/nvim-colorizer.lua'}
   use {'navarasu/onedark.nvim'}
   -- Fuzzy finder
   use {
       'nvim-telescope/telescope.nvim',
       requires = {{'nvim-lua/popup.nvim'}, {'nvim-lua/plenary.nvim'}}
+  }
+  use {
+    'kyazdani42/nvim-tree.lua',
+    requires = {
+      'kyazdani42/nvim-web-devicons', -- optional, for file icon
+    },
+    config = function() require'nvim-tree'.setup {} end
   }
 
   --Auto Pairs
