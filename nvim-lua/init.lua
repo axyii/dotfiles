@@ -1,6 +1,5 @@
 -- Map leader to space
 vim.g.mapleader = ' '
-
 local fn = vim.fn
 local execute = vim.api.nvim_command
 -- Sensible defaults
@@ -14,7 +13,6 @@ if fn.empty(fn.glob(install_path)) > 0 then
 end
 vim.cmd [[packadd packer.nvim]]
 vim.cmd 'autocmd BufWritePost plugins.lua PackerCompile' -- Auto compile when there are changes in plugins.lua
-
 -- Install plugins
 require('plugins')
 
@@ -31,4 +29,3 @@ require('config')
 --require('config.colorscheme')  -- color scheme
 --require('config.completion')   -- completion
 --require('config.fugitive')     -- fugitive
-
