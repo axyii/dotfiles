@@ -1,9 +1,9 @@
 return require('packer').startup(function()
-    
+
   -- Packer can manage itself as an optional plugin
   use {'wbthomason/packer.nvim', opt = true}
 
-  -- Color scheme and Pretty stuff 
+  -- Color scheme and Pretty stuff
   use { 'folke/tokyonight.nvim' }
 --  use { 'mhinz/vim-startify'}
   use {'kyazdani42/nvim-web-devicons'}
@@ -29,7 +29,14 @@ return require('packer').startup(function()
   }
 
   --Auto Pairs
-  use {'jiangmiao/auto-pairs'}
+--  use {'jiangmiao/auto-pairs'}
+    use {'windwp/nvim-autopairs',
+        config = function()
+            require("nvim-autopairs").setup {}
+          end
+    }
+
+--    use {'windwp/nvim-ts-autotag'} --use this with treesitter
 
   -- LSP and completion
   use {'sheerun/vim-polyglot'}

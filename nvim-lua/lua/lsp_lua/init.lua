@@ -39,9 +39,9 @@ local servers = {
   "jsonls",
   "tsserver",
   "ltex",
+  "texlab",
   "sumneko_lua",
   "pyright",
-  "grammarly",
   "svelte",
   "yaml",
 
