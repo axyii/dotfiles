@@ -39,7 +39,7 @@ return require('packer').startup(function()
 --    use {'windwp/nvim-ts-autotag'} --use this with treesitter
 
   -- LSP and completion
-  use {'sheerun/vim-polyglot'}
+--  use {'sheerun/vim-polyglot'}
 --  use {'jaxbot/semantic-highlight.vim'}
 
   use { 'neovim/nvim-lspconfig'}
@@ -49,7 +49,7 @@ return require('packer').startup(function()
   use {'saadparwaiz1/cmp_luasnip'}-- Snippets source for nvim-cmp
   use {'L3MON4D3/LuaSnip'}-- Snippets plugin
 --  use {'neoclide/coc.nvim', branch = 'release'}
---  use {'nvim-treesitter/nvim-treesitter', run = ':TSUpdate'}
+  use {'nvim-treesitter/nvim-treesitter', run = ':TSUpdate'}
   --coc-html
   --coc-tsserver
   --coc-pyright
