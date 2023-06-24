@@ -7,7 +7,7 @@ return require('packer').startup(function()
   use { 'folke/tokyonight.nvim' }
 --  use { 'mhinz/vim-startify'}
   use {'kyazdani42/nvim-web-devicons'}
-  use{'glepnir/dashboard-nvim'}
+--  use{'glepnir/dashboard-nvim'}
   use {
     'hoob3rt/lualine.nvim',
         requires = {'kyazdani42/nvim-web-devicons', opt = true}

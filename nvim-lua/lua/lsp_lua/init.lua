@@ -40,7 +40,7 @@ local servers = {
   "tsserver",
   "ltex",
   "texlab",
-  "sumneko_lua",
+  "lua_ls",
   "pyright",
   "svelte",
   "yaml",
