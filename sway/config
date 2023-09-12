@@ -206,6 +206,12 @@ mode "resize" {
 }
 bindsym $mod+r mode "resize"
 
+set $ps1 Print
+set $ps4 Alt+Control+Print
+set $psf ~/Pictures/ps_$(date +"%Y%m%d%H%M%S").png
+bindsym $ps4 exec grim -g "$(slurp)" $psf
+bindsym $ps1 exec grim - | wl-copy
+
 #Key binds for sound and brightness
 
 bindsym --locked XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +5%
