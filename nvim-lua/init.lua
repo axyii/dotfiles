@@ -19,10 +19,8 @@ require('plugins')
 -- Key mappings
 require('keymappings')
 
--- Setup Lua language server using submodule
+-- Setup Lua language server using mason
 require('lsp_lua')
-
--- Another option is to groups configuration in one folder
 
 require('config')
 -- OR you can invoke them individually here
